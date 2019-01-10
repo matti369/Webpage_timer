@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Watch</title>
+
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- <script type="text/javascript">
+        function counting_down() {
+            var today = new Date();
+
+            var day = today.getDate();
+            var month = today.getMonth() + 1;
+            var year = today.getFullYear();
+
+            var hour = today.getHours();
+            var minute = today.getMinutes();
+            var seconds = today.getSeconds();
+
+            document.getElementById('watch').innerHTML = dzien + '/' + month + '/' + year + '   |   ' + hour + ':' +
+                minute + ':' + seconds;
+
+            setTimeout('counting_down()', 1000);
+        }
+    </script> -->
+</head>
+
+<body onload="counting_down();">
+    <div id="watch"></div>
+
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
